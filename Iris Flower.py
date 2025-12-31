@@ -35,4 +35,4 @@ pw = float(input("Enter Petal Width: "))
 input_data = np.array([[sl, sw, pl, pw]])
 prediction = model.predict(input_data)
 
-print("\n🌼 Predicted Iris Species:", prediction[0])
+print("\n Predicted Iris Species:", prediction[0])
