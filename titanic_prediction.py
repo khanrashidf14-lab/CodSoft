@@ -31,10 +31,6 @@ DATA_FILE = "Titanic-Dataset.csv"
 OUTPUT_MODEL = "best_model.pkl"
 
 
-def load_data(path: str) -> pd.DataFrame:
-    df = pd.read_csv(path)
-    return df
-
 
 def extract_title(name: str) -> str:
     # Extract title between ", " and "."
