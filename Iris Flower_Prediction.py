@@ -88,7 +88,7 @@ def train_and_evaluate(X: np.ndarray,
             )
             cv = min_count
 
-    # Estimate training set size per fold and restrict n_neighbors accordingly
+    # to Estimate training set size per fold and restrict n_neighbors accordingly
     n_samples = X.shape[0]
     # approximate train size per fold = (cv-1)/cv * n_samples
     n_train_est = max(1, int((cv - 1) / cv * n_samples))
